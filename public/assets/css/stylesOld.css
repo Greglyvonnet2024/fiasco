@@ -1,0 +1,124 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#principal {
+  width: 1440px;
+  background-color: black;
+  margin: auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+**************************************HEADER */
+
+header {
+  background-image: url("assets/img/eggs.jpg");
+  /* text-align: center; */
+  height: 612px;
+  width: 100%;
+display: flex;
+}
+
+
+.logo{
+
+}
+
+.titres{
+    text-align: center;
+  
+    
+
+}
+
+
+h1 {
+  color: white;
+  /* position:absolute;
+  top: 300px;
+  left: 45%; */
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: rgb(221, 221, 59);
+}
+
+
+h6 {
+  color: white;
+}
+
+p{
+    color: white;
+}
+
+/* *****************************************NAV */
+
+ul {
+  display: flex;
+ 
+}
+
+li {
+  list-style-type: none;
+  display: flex; 
+}
+
+a {
+  text-decoration: none;
+  color: rgb(221, 221, 59);
+}
+
+/********************************** MAIN  */
+
+.part1{
+    display: flex ;
+
+    flex-wrap: nowrap;
+    border: 1px solid white;
+}
+
+.textour{
+    margin: 50px;
+
+}
+
+.part2{
+    display: flex ;
+}
+
+/********************************** MEDIA QUERY */
+
+@media (max-width: 1439.98px) {
+  #principal {
+    background-color: pink;
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 759.98px) {
+  #principal {
+    background-color: aqua;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 559.98px) {
+  #principal {
+    background-color: purple;
+    width: 100%;
+  }
+}
